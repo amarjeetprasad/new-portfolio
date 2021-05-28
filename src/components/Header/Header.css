@@ -1,0 +1,72 @@
+.header-container {
+  width: 100vw;
+  height: 10vh;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+}
+.header-container .nav_icon_btn {
+  font-size: 1.9rem;
+  margin-top: 5px;
+  cursor: pointer;
+  display: none;
+}
+.header-container .header_title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.header-container .header_title span {
+  color: #c70039;
+}
+.header-container .navs {
+  display: flex;
+  list-style: none;
+  transition: all 0.2s;
+  z-index: 1;
+}
+.header-container .navs li {
+  padding: 0 15px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.header-container .navs li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-container .navs li a:hover {
+  color: rgb(214, 213, 213);
+}
+.hhh {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 760px) {
+  .header-container .navs {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: -100%;
+    background-color: #c70039;
+    width: 100%;
+    padding-right: 50px;
+  }
+  .header-container .navs li {
+    margin-top: 45px;
+    padding: 20px 10px;
+    margin-right: 10px;
+    text-align: right;
+  }
+  .header-container .nav_icon_btn {
+    display: block;
+  }
+}

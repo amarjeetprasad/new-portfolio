@@ -1,0 +1,26 @@
+.card_container {
+  width: 360px;
+  text-align: center;
+  background: rgb(48, 47, 47);
+  margin: 20px;
+  padding: 25px 15px;
+  box-shadow: 0 0 5px rgb(94, 93, 93);
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.card_container:hover {
+  transform: scale(1.02);
+}
+
+.card_container .img {
+  font-size: 2.5rem;
+  color: #c70039;
+}
+.card_container h2 {
+  color: #fff;
+}
+
+.card_container p {
+  color: rgb(230, 230, 230);
+  padding: 10px 0 0 0;
+}

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.team_card_container {
+  width: 300px;
+  background: rgb(54, 54, 54);
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgb(184, 182, 182);
+  color: rgb(219, 215, 215);
+  transition: all 0.5s;
+  font-family: "Roboto", sans-serif;
+}
+
+.team_card_container img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.team_card_container h3 {
+  font-size: 1.5rem;
+  padding: 10px 0;
+}
+
+.team_card_container p {
+  font-size: 1.1rem;
+}
+.team_card_container:hover {
+  transform: scale(1.02);
+  background: #c70039;
+  color: #fff !important;
+}

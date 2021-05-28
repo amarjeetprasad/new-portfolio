@@ -1,0 +1,23 @@
+.services_container {
+  width: 100%;
+  background: #222222;
+  padding: 5% 0 5% 0;
+}
+.services_container .services_header {
+  width: 100%;
+  padding: 30px 0;
+}
+.services_container .services_header h3 {
+  width: 200px;
+  height: 45px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+  box-shadow: 0 3px 3px #c70039;
+  color: #fff;
+}
+.services_container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

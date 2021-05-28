@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.skill_container {
+  padding-top: 3%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: "Roboto", sans-serif;
+}
+.skill_container .skill_header {
+  width: 100%;
+  padding: 30px 0;
+}
+.skill_container .skill_header h3 {
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+  box-shadow: 0 3px 3px #c70039;
+  transform: rotate(0deg);
+}
+
+.skill_container .skill_body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.skill_container .skill_body .first {
+  max-width: 550px;
+  padding: 20px;
+  padding-right: 6%;
+  margin: 0 0 50px 0;
+}
+.skill_container .skill_body .first h3 {
+  font-size: 1.5rem;
+}
+.skill_container .skill_body .first p {
+  font-size: 1.2rem;
+  padding: 15px 0;
+}
+
+.skill_container .skill_body .second {
+  max-width: 550px;
+}
+
+.skill_container .skill_body .second .chart_bars {
+  display: flex;
+  border-bottom: 5px solid #222;
+}
+.skill_container .skill_body .second .chart_bars .cont {
+  height: 350px;
+  width: 10px;
+  border: 1px solid #555;
+  margin: 0 1.5rem;
+  position: relative;
+  text-align: center;
+}
+.skill_container .skill_body .second .chart_bars .cont .per {
+  position: absolute;
+  top: -30px;
+  left: -2px;
+  font-size: 1.1rem;
+}
+
+.skill_container .skill_body .second .chart_bars .cont .text {
+  position: absolute;
+  bottom: -35px;
+  left: -10px;
+  font-size: 1.1rem;
+}
+
+.skill_container .skill_body .second .chart_bars .cont .bar {
+  width: 9px;
+  margin-left: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: #c70039;
+}
+.skill_container .skill_body .second .chart_bars .cont:nth-child(1) .bar {
+  height: 95%;
+}
+.skill_container .skill_body .second .chart_bars .cont:nth-child(2) .bar {
+  height: 90%;
+}
+.skill_container .skill_body .second .chart_bars .cont:nth-child(3) .bar {
+  height: 80%;
+}
+.skill_container .skill_body .second .chart_bars .cont:nth-child(4) .bar {
+  height: 80%;
+}
+.skill_container .skill_body .second .chart_bars .cont:nth-child(5) .bar {
+  height: 80%;
+}
+.skill_container .skill_body .second .chart_bars .cont:nth-child(6) .bar {
+  height: 70%;
+}
+
+.skill_container .skill_body .first a {
+  display: block;
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  border: 2px solid #c70039;
+  color: #fff;
+  background-color: #c70039;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 0;
+  border-radius: 7px;
+  font-size: 1.1rem;
+  box-shadow: 0 0 3px #555;
+}
